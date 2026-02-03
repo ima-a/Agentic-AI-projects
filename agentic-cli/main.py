@@ -67,7 +67,7 @@ def run_modern_agent():
         return
     print("🟢 GOOGLE_API_KEY loaded.")
 
-    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", convert_system_message_to_human=True)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", convert_system_message_to_human=True)
     print("🟢 ChatGoogleGenerativeAI model initialized.")
 
     # <--- ERROR 5 FIXED: Added ALL tools to the list
